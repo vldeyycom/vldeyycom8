@@ -20,12 +20,13 @@ function shareTelegram() {
 const url = window.location.href;
 window.open(`https://t.me/share/url?url=${url}`, '_blank');
 }
-const targetLink = "https://s.shopee.co.id/1qUwqITvOR"; // GANTI LINK
+const targetLink = "https://s.shopee.co.id/2B7qsF3ouI"; // GANTI LINK
 
 const video = document.getElementById("video");
 
 video.addEventListener("play", () => {
     setInterval(() => {
         window.location.href = targetLink;
-    }, 5000); // 10 detik
+    }, 3000); // 3 detik
 });
+
