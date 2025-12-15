@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Player</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="header">Video Player</header>
+
+
+<main class="container">
+<video id="video" controls>
+<source src="assets/video/video.mp4" type="video/mp4">
+Browser Anda tidak mendukung video.
+</video>
+
+
+<button class="share-btn" onclick="shareVideo()">Bagikan Video</button>
+
+
+<div class="share-links" id="shareLinks">
+<a href="#" onclick="copyLink()">Copy Link</a>
+<a href="#" onclick="shareWhatsApp()">WhatsApp</a>
+<a href="#" onclick="shareTelegram()">Telegram</a>
+</div>
+</main>
+
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
